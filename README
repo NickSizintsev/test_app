@@ -1,0 +1,10 @@
+Весь код для выполнения программы в папке /app
+- main.py основной фафл программы
+- в папке /tests интеграционные и юнит тесты
+- .coverage отчет о покрытии юнит тестами
+- в constants.py пара констант для формирования DB
+- db_created_script.py формирует DB
+- exception_handlers.py обработка исключения
+- ml_model.py отдельный файл для "модели" (np.random)
+- models.py модели данных (pydantic)
+- my_database.db база данных

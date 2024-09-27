@@ -1,0 +1,9 @@
+import os
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+print(ROOT_DIR)
+print(os.path.join(ROOT_DIR, 'requirements.txt'))
+
+db_name: "my_database.db"
+table_name: "users"
+seed: 42
